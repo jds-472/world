@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AppInstaller Uri="https://jds-472.github.io/publish/AppUsageTracker.appinstaller" 
+<AppInstaller Uri="https://jds-472.github.io/world/publish/AppUsageTracker.appinstaller" 
               Version="1.0.3.0"
               xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
   
   <MainBundle Name="d25abe42-1554-40ff-a12b-b5f29248b006" 
               Publisher="CN=jds" 
               Version="1.0.3.0" 
-              Uri="https://jds-472.github.io/publish/AppUsageTracker.appxbundle" />
+              Uri="https://jds-472.github.io/world/publish/AppUsageTracker.appxbundle" />
 
   <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="24" />
