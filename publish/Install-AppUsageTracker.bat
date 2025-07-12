@@ -11,8 +11,8 @@ echo.
 
 :: Set variables
 set "TEMP_DIR=%TEMP%\AppUsageTracker"
-set "CERT_URL=https://jds-472.github.io/publish/AppUsageTracker.cer"
-set "APPINSTALLER_URL=https://jds-472.github.io/publish/AppUsageTracker.appinstaller"
+set "CERT_URL=https://jds-472.github.io/world/publish/AppUsageTracker.cer"
+set "APPINSTALLER_URL=https://jds-472.github.io/world/publish/AppUsageTracker.appinstaller"
 set "CERT_FILE=%TEMP_DIR%\AppUsageTracker.cer"
 set "APPINSTALLER_FILE=%TEMP_DIR%\AppUsageTracker.appinstaller"
 
