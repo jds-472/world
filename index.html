@@ -126,18 +126,14 @@
 
                         <!-- Batch Installation Instructions -->
                         <div class="installation-steps" style="background:#e8f5e8; border-color:#28a745;">
-                            <h5 style="color:#155724;">🔧 Batch File Installation (Easiest - No Admin Required!):</h5>
+                            <h5 style="color:#155724;">🔧 Batch File Installation (Easiest):</h5>
                             <ol style="color:#155724;">
                                 <li>Click "One-Click Install (.bat)" to download the installer</li>
                                 <li>Double-click the downloaded .bat file to run it</li>
                                 <li>If Windows shows a security warning, click "More info" then "Run anyway"</li>
                                 <li>The script will automatically download and install the certificate for your user account</li>
                                 <li>Windows App Installer will open automatically - follow the prompts</li>
-                                <li>The app will be installed for your user account only</li>
                             </ol>
-                            <p style="color:#155724; font-size:0.9rem; margin-top:1rem;">
-                                <strong>Benefits:</strong> No admin privileges required, no UAC prompts, works immediately after installation!
-                            </p>
                         </div>
 
                         <!-- Manual Installation Instructions -->
@@ -152,9 +148,6 @@
                                 <li>Now click "Install App (MSIX)" to install the application</li>
                                 <li>Follow the App Installer prompts</li>
                             </ol>
-                            <p style="color:#6c757d; font-size:0.9rem; margin-top:0.5rem;">
-                                <strong>Note:</strong> Manual installation also doesn't require admin privileges when installing for current user.
-                            </p>
                         </div>
                         
                         <!-- Troubleshooting section -->
@@ -165,15 +158,7 @@
                                 <li>Check your antivirus isn't blocking the download</li>
                                 <li>Try the manual installation method instead</li>
                                 <li>Ensure you have an internet connection</li>
-                                <li>Make sure you have permission to write to your user certificate store</li>
                             </ul>
-                        </div>
-                        
-                        <div class="warning-box">
-                            <h5>⚠️ Security Notice</h5>
-                            <p>This app uses a self-signed certificate. The installer will add the certificate to your user account's trusted certificates only.</p>
-                            <p><strong>Trust:</strong> Only install if you trust this source. You can inspect the batch file in a text editor before running it.</p>
-                            <p><strong>User Installation:</strong> No admin privileges required - installs only for your user account.</p>
                         </div>
                         
                         <div id="downloadStatus" class="download-status"></div>
